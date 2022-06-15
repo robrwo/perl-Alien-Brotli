@@ -1,0 +1,66 @@
+#!perl
+
+use alienfile;
+use version 0.77;
+
+use constant MINIMUM_VERSION => '1.0.9';
+
+plugin 'PkgConfig' => (
+    pkg_name        => 'brotli',
+    minimum_version => MINIMUM_VERSION,
+);
+
+meta->around_hook('probe' => sub {
+    my($orig, $build) = @_;
+
+    my $type = $orig->($build);
+    if($type eq 'system') {
+        foreach my $exe (qw( brotli )) {
+            if (my ($version) = `$exe --version` =~ /brotli (\d+\.\d+(?:\.\d+))/) {
+                if (version->parse($version) >= version->parse(MINIMUM_VERSION)) {
+                    $build->runtime_prop->{command} = $exe;
+                    return 'system';
+                }
+            }
+        }
+    }
+
+    return 'share';
+});
+
+
+# ./bootstrap
+# ./confgure
+# make
+
+share {
+
+    plugin 'Build::CMake';
+
+    start_url 'https://github.com/google/brotli/tags';
+
+    plugin 'Download' => (
+        filter  => qr/(\d\.)+\d\.tar\.gz$/,
+        version => qr/([0-9\.]+)/,
+        prefer  => 1,
+    );
+
+    plugin 'Extract' => 'tar.gz';
+
+    build [
+        [
+            '%{cmake}',
+            -G => '%{cmake_generator}',
+            '-DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=true',
+            '-DCMAKE_INSTALL_PREFIX:PATH=%{.install.prefix}', '.'
+        ],
+        '%{make}',
+        '%{make} install',
+    ];
+
+    after 'gather' => sub {
+        my($build) = @_;
+        $build->runtime_prop->{command} = 'brotli';
+    };
+
+};
