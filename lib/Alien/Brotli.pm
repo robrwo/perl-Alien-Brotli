@@ -9,8 +9,6 @@ use strict;
 
 use base qw/ Alien::Base /;
 
-use namespace::autoclean;
-
 our $VERSION = 'v0.1.1';
 
 =head1 DESCRIPTION

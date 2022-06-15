@@ -4,7 +4,6 @@
 requires "Alien::Base" => "0";
 requires "Alien::cmake3" => "0";
 requires "base" => "0";
-requires "namespace::autoclean" => "0";
 requires "perl" => "v5.14.0";
 requires "strict" => "0";
 requires "warnings" => "0";
