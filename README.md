@@ -4,7 +4,7 @@ Alien::Brotli - Download and install Brotli
 
 # VERSION
 
-version v0.1.0
+version v0.1.1
 
 # DESCRIPTION
 
