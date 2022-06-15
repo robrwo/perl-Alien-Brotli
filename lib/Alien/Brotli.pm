@@ -13,7 +13,7 @@ our $VERSION = 'v0.1.1';
 
 =head1 DESCRIPTION
 
-This distriution installs C<brotli>, so that it can be used by other
+This distribution installs C<brotli>, so that it can be used by other
 distributions.
 
 It does this by first trying to detect an existing installation.  If

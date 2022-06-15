@@ -8,7 +8,7 @@ version v0.1.1
 
 # DESCRIPTION
 
-This distriution installs `brotli`, so that it can be used by other
+This distribution installs `brotli`, so that it can be used by other
 distributions.
 
 It does this by first trying to detect an existing installation.  If
