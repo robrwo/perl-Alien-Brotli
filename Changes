@@ -7,5 +7,7 @@ Revision history for {{ $dist->name }}:
   [Documentation]
   - Fixed typos.
 
+  - Updated ABSTRACT.
+
 v0.1.0    2022-06-15 15:18:38+01:00 Europe/London
   - Initial release.

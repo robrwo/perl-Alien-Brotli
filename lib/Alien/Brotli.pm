@@ -1,6 +1,6 @@
 package Alien::Brotli;
 
-# ABSTRACT: Download and install Brotli
+# ABSTRACT: Download and install Brotli compressor
 
 use v5.14;
 

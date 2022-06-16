@@ -1,6 +1,6 @@
 # NAME
 
-Alien::Brotli - Download and install Brotli
+Alien::Brotli - Download and install Brotli compressor
 
 # VERSION
 
