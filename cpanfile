@@ -3,7 +3,9 @@
 
 requires "Alien::Base" => "0";
 requires "Alien::cmake3" => "0";
+requires "Path::Tiny" => "0";
 requires "base" => "0";
+requires "namespace::autoclean" => "0";
 requires "perl" => "v5.14.0";
 requires "strict" => "0";
 requires "warnings" => "0";
@@ -30,6 +32,8 @@ on 'configure' => sub {
   requires "Alien::Build" => "1.40";
   requires "Alien::Build::MM" => "0.32";
   requires "Alien::Build::Plugin::Build::CMake" => "0.99";
+  requires "Alien::Build::Plugin::Build::SearchDep" => "0.35";
+  requires "Alien::Build::Plugin::PkgConfig::Negotiate" => "0.79";
   requires "ExtUtils::MakeMaker" => "6.52";
 };
 

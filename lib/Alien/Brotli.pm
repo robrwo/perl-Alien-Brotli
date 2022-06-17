@@ -9,6 +9,10 @@ use strict;
 
 use base qw/ Alien::Base /;
 
+use Path::Tiny qw/ path /;
+
+use namespace::autoclean;
+
 our $VERSION = 'v0.1.1';
 
 =head1 DESCRIPTION
@@ -23,14 +27,14 @@ private share location for the use of other modules.
 
 =method exe
 
-This returns the name of the `brotli` executable, which I<may> be the
-path to the executable.
+This returns the path to the C<brotli> executable, as a L<Path::Tiny>
+object.
 
 =cut
 
 sub exe {
     my ($self) = @_;
-    $self->runtime_prop->{command};
+    return path( $self->dist_dir, 'bin', $self->runtime_prop->{command} );
 }
 
 =head1 SEE ALSO

@@ -20,8 +20,8 @@ private share location for the use of other modules.
 
 ## exe
 
-This returns the name of the \`brotli\` executable, which _may_ be the
-path to the executable.
+This returns the path to the `brotli` executable, as a [Path::Tiny](https://metacpan.org/pod/Path%3A%3ATiny)
+object.
 
 # SEE ALSO
 

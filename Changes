@@ -2,7 +2,9 @@ Revision history for {{ $dist->name }}:
 
 {{$NEXT}}
   [Bug Fixes]
-  - Remove unnecessary use of namespace::autoclean.
+  - Fixed usage with Alien::Base::Wrapper, GH#1.
+
+  - The `exe` method now returns the full path, as a Path::Tiny object.
 
   [Documentation]
   - Fixed typos.
