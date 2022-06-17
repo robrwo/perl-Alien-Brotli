@@ -4,7 +4,7 @@ Alien::Brotli - Download and install Brotli compressor
 
 # VERSION
 
-version v0.1.1
+version v0.2.0
 
 # DESCRIPTION
 
