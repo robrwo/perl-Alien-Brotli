@@ -45,6 +45,10 @@ feature.
 
 Robert Rothenberg <rrwo@cpan.org>
 
+# CONTRIBUTOR
+
+Michal Josef Špaček <mspacek@redhat.com>
+
 # COPYRIGHT AND LICENSE
 
 This software is Copyright (c) 2022 by Robert Rothenberg.
