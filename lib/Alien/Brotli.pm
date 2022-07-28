@@ -34,7 +34,7 @@ object.
 
 sub exe {
     my ($self) = @_;
-    return path( $self->dist_dir, 'bin', $self->runtime_prop->{command} );
+    return path( $self->bin_dir, $self->runtime_prop->{command} );
 }
 
 =head1 SEE ALSO
