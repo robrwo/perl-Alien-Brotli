@@ -1,6 +1,8 @@
 Revision history for {{ $dist->name }}:
 
 {{$NEXT}}
+
+v0.2.1    2022-08-31 13:39:02+01:00 Europe/London
   [Bug Fixes]
   - Fixed `exe` method for 'share' and 'system'  version of brotli command, GH#2 (mspacek).
 
