@@ -47,7 +47,7 @@ Robert Rothenberg <rrwo@cpan.org>
 
 # CONTRIBUTOR
 
-Michal Josef Špaček <mspacek@redhat.com>
+Michal Josef Špaček <skim@cpan.org>
 
 # COPYRIGHT AND LICENSE
 

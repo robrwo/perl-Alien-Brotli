@@ -1,6 +1,8 @@
 Revision history for {{ $dist->name }}:
 
 {{$NEXT}}
+  [Toolchain]
+  - Added .mailmap to use CPAN email for contributors.
 
 v0.2.1    2022-08-31 13:39:02+01:00 Europe/London
   [Bug Fixes]
