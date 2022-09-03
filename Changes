@@ -1,6 +1,12 @@
 Revision history for {{ $dist->name }}:
 
 {{$NEXT}}
+  [Bug Fixes]
+  - Add missing bc to bootstrap, GH#5 (mspacek).
+
+  [Tests]
+  - Add diagnostics to tests (mpsacek).
+
   [Toolchain]
   - Added .mailmap to use CPAN email for contributors.
 
