@@ -13,7 +13,7 @@ use Path::Tiny qw/ path /;
 
 use namespace::autoclean;
 
-our $VERSION = 'v0.2.2';
+our $VERSION = 'v0.2.3';
 
 =head1 DESCRIPTION
 
