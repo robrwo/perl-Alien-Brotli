@@ -3,6 +3,7 @@
 
 requires "Alien::Base" => "0";
 requires "Alien::Build::Plugin::Probe::CommandLine" => "0";
+requires "Alien::bc::GNU" => "0";
 requires "Alien::cmake3" => "0";
 requires "Path::Tiny" => "0";
 requires "base" => "0";
