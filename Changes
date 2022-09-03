@@ -4,6 +4,8 @@ Revision history for {{ $dist->name }}:
   [Bug Fixes]
   - Add missing bc to bootstrap, GH#5 (mspacek).
 
+  - Moved build prerequisites to build phase.
+
   [Tests]
   - Add diagnostics to tests (mpsacek).
 
