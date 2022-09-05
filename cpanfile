@@ -23,7 +23,7 @@ on 'test' => sub {
   requires "Module::Metadata" => "0";
   requires "Test2::V0" => "0";
   requires "Test::Alien" => "0";
-  requires "Test::Alien::Diag" => "0";
+  requires "Test::Alien::Diag" => "2.68";
   requires "Test::More" => "0";
 };
 

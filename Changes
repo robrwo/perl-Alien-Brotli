@@ -1,6 +1,8 @@
 Revision history for {{ $dist->name }}:
 
 {{$NEXT}}
+  [Tests]
+  - Add exe() method to diagnostics (mspacek).
 
 v0.2.2    2022-09-03 13:40:15+01:00 Europe/London
   [Bug Fixes]
