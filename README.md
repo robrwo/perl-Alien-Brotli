@@ -27,6 +27,7 @@ Changes for version v0.2.3 (2026-10-24)
     - README generated from the UsefulReadme dzil plugin.
 - Tests
     - Add exe() method to diagnostics (mspacek).
+    - Updated author tests, which are now in xt.
 - Toolchain
     - Switched from Module::Signature to sigstore.
     - Updated Dist::Zilla configuration.

@@ -16,14 +16,15 @@ on 'build' => sub {
   requires "Alien::bc::GNU" => "0";
   requires "Alien::cmake3" => "0";
   requires "Env::ShellWords" => "0";
-  requires "ExtUtils::MakeMaker" => "6.52";
+  requires "ExtUtils::MakeMaker" => "7.22";
+  requires "Module::Metadata" => "1.000015";
 };
 
 on 'test' => sub {
   requires "File::Spec" => "0";
   requires "IO::Handle" => "0";
   requires "IPC::Open3" => "0";
-  requires "Module::Metadata" => "0";
+  requires "Module::Metadata" => "1.000015";
   requires "Test2::V0" => "0";
   requires "Test::Alien" => "0";
   requires "Test::Alien::Diag" => "2.68";
@@ -63,7 +64,6 @@ on 'develop' => sub {
   requires "Test::EOF" => "0";
   requires "Test::EOL" => "0";
   requires "Test::Fixme" => "0";
-  requires "Test::MinimumVersion" => "0";
   requires "Test::MixedScripts" => "v0.3.0";
   requires "Test::Mojibake" => "0";
   requires "Test::More" => "0.96";
@@ -75,5 +75,4 @@ on 'develop' => sub {
   requires "Test::Spelling" => "0.17";
   requires "Test::TrailingSpace" => "0.0203";
   requires "Test::Vars" => "0";
-  requires "Test::Version" => "1";
 };

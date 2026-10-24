@@ -15,6 +15,12 @@ use namespace::autoclean;
 
 our $VERSION = 'v0.2.3';
 
+=begin :prelude
+
+=for stopwords exe
+
+=end :prelude
+
 =head1 DESCRIPTION
 
 This distribution installs C<brotli>, so that it can be used by other
