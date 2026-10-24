@@ -30,14 +30,6 @@ share {
     plugin 'Extract' => 'tar.gz';
 
     plugin 'Build::CMake';
-    plugin 'Build::Autoconf';
-
-    build [
-        './bootstrap',
-        '%{configure}',
-        '%{make}',
-        '%{make} install',
-    ];
 
     after 'gather' => sub {
         my($build) = @_;

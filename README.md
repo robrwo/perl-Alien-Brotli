@@ -20,6 +20,7 @@ Changes for version v0.2.3 (2026-10-24)
     - Bumped minimum version of libbrotli to 1.2.1 (CVE-2026-111497)
 - Bug Fixes
     - Updated build prerequisites.
+    - Build now works with the latest versions of libbrotli.
 - Documentation
     - Updated maintainer email addresses.
     - Updated copyright year.
