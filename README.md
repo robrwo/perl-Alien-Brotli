@@ -12,28 +12,6 @@ found, it will use that.  Otherwise, the source will be downloaded
 from the official git repository, and it will be installed in a
 private share location for the use of other modules.
 
-# RECENT CHANGES
-
-Changes for version v0.2.3 (2026-10-24)
-
-- Security
-    - Bumped minimum version of libbrotli to 1.2.1 (CVE-2026-111497)
-- Bug Fixes
-    - Updated build prerequisites.
-    - Build now works with the latest versions of libbrotli.
-- Documentation
-    - Updated maintainer email addresses.
-    - Updated copyright year.
-    - README generated from the UsefulReadme dzil plugin.
-- Tests
-    - Add exe() method to diagnostics (mspacek).
-    - Updated author tests, which are now in xt.
-- Toolchain
-    - Switched from Module::Signature to sigstore.
-    - Updated Dist::Zilla configuration.
-
-See the `Changes` file for more details.
-
 # REQUIREMENTS
 
 This module lists the following modules as runtime dependencies:
