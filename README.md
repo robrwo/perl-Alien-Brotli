@@ -48,7 +48,7 @@ feature.
 
 # COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2022 by Robert Rothenberg.
+This software is Copyright (c) 2022, 2026 by Robert Rothenberg.
 
 This is free software, licensed under:
 

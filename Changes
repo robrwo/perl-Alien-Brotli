@@ -4,6 +4,8 @@ Revision history for {{ $dist->name }}:
   [Documentation]
   - Updated maintainer email addresses.
 
+  - Updated copyright year.
+
   [Tests]
   - Add exe() method to diagnostics (mspacek).
 
