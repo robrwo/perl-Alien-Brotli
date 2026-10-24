@@ -12,6 +12,9 @@ Revision history for {{ $dist->name }}:
   [Tests]
   - Add exe() method to diagnostics (mspacek).
 
+  [Toolchain]
+  - Switched from Module::Signature to sigstore.
+
 v0.2.2    2022-09-03 13:40:15+01:00 Europe/London
   [Bug Fixes]
   - Add missing bc to bootstrap, GH#5 (mspacek).
