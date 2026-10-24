@@ -41,13 +41,10 @@ When submitting a bug or request, please include a test-file or a
 patch to an existing test-file that illustrates the bug or desired
 feature.
 
-# AUTHOR
+# AUTHORS
 
-Robert Rothenberg <rrwo@cpan.org>
-
-# CONTRIBUTOR
-
-Michal Josef Špaček <skim@cpan.org>
+- Robert Rothenberg <perl@rhizomnic.com>
+- Michal Josef Špaček <michal.josef.spacek@gmail.com>
 
 # COPYRIGHT AND LICENSE
 

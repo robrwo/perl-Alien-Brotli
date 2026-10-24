@@ -1,6 +1,9 @@
 Revision history for {{ $dist->name }}:
 
 {{$NEXT}}
+  [Documentation]
+  - Updated maintainer email addresses.
+
   [Tests]
   - Add exe() method to diagnostics (mspacek).
 
